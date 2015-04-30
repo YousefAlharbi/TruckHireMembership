@@ -1,0 +1,168 @@
+* {
+border:0;
+margin:0;
+padding:0;
+}
+
+a {
+color:#777;
+text-decoration:none;
+}
+
+a:hover {
+color:#333;
+text-decoration:none;
+}
+
+body {
+background:#fafafa;
+color:#555;
+font:.8em Arial, Helvetica, "bitstream vera sans", sans-serif;
+}
+
+p, h1, form, button{border:0; margin:0; padding:0;}
+
+#header {
+border-bottom:1px solid #999;
+height:80px;
+width:751px;
+margin:0 auto;
+}
+
+#header h1 {
+color:#984A09;
+font-size:300%;
+letter-spacing:-3px;
+text-align:right;
+margin-bottom:-20px;
+padding:5px;
+}
+
+#header h2 {
+color:#DAB392;
+font-size:200%;
+letter-spacing:-2px;
+text-align:right;
+}
+
+#navigation {
+background:#fafafa;
+border-right:1px solid #999;
+width:750px;
+height:50px;
+list-style:none;
+margin:0 auto;
+}
+
+#navigation li {
+border-left:1px solid #999;
+float:left;
+width:124px;
+list-style:none;
+}
+
+#navigation a {
+color:#555;
+display:block;
+line-height:50px;
+text-align:center;
+}
+
+#navigation a:hover {
+background:#FFFFFF;
+color:#555;
+}
+
+#navigation .active {
+background:#E5BC93;
+color:#777;
+}
+
+#content {
+height:100%;
+width:751px;
+margin:0 auto;
+padding:0 0 20px;
+}
+
+#content h1 {
+border-bottom:1px dashed #999;
+font-size:1.8em;
+padding:20px 0 0;
+}
+
+#content p {
+padding:20px 20px 0;
+}
+
+.spacer {
+clear:both;
+height:10px;
+}
+
+.myform {
+width:400px;
+margin:0 auto;
+padding:14px;
+}
+
+#stylized {
+border:solid 2px #999;
+background:#F7F591;
+}
+
+#stylized h1 {
+font-size:14px;
+font-weight:700;
+margin-bottom:8px;
+}
+
+#stylized p {
+font-size:11px;
+color:#666;
+margin-bottom:20px;
+border-bottom:solid 1px #b7ddf2;
+padding-bottom:10px;
+}
+
+#stylized label {
+display:block;
+font-weight:700;
+text-align:right;
+width:140px;
+float:left;
+}
+
+#stylized .small {
+color:#666;
+display:block;
+font-size:11px;
+font-weight:400;
+text-align:right;
+width:140px;
+}
+
+#stylized input {
+float:left;
+font-size:12px;
+border:solid 1px #aacfe4;
+margin:2px 0 20px 10px;
+padding:4px 2px;
+}
+
+#stylized button{
+height:31px;
+line-height:31px;
+color:#FFFFFF;
+font-size:11px;
+font-weight:bold;
+}
+
+#footer {
+border-top:1px solid #999;
+height:50px;
+text-align:center;
+width:751px;
+margin:0 auto;
+padding:10px;
+}
